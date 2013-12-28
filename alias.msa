@@ -1,0 +1,20 @@
+/global [$] = >>>
+
+<<<
+
+/msg $player $ = >>>
+
+<<<
+
+/r $ = >>>
+
+<<<
+
+/ignore $ = >>>
+	@args = parse_args($)
+	if(@args[0] == '-L') {
+
+	} else {
+		#player
+	}
+<<<
