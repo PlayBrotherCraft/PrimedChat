@@ -12,7 +12,7 @@
 
 /ignore $ = >>>
 	@args = parse_args($)
-	if(@args[0] == '-L') {
+	if(@args[0] == '-L' || @args[0] == '-l') {
 
 	} else {
 		#player
